@@ -32,7 +32,7 @@ export default function RootLayout({
         <div className="font-sans grid grid-rows-[1fr_min-content] min-h-screen">
           <Header />
           <main>{children}</main>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </body>
     </html>
