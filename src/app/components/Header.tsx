@@ -9,6 +9,7 @@ export default function Header() {
       <div className="w-full max-w-7xl">
         <div className="flex justify-start gap-4">
           <Link href="/">HOME</Link>
+          <Link href="/about">ABOUT</Link>
           <Link href="/blog">BLOG</Link>
         </div>
         <div className="flex justify-end gap-4">
