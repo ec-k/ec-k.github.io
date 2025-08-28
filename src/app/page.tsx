@@ -1,5 +1,4 @@
-import Link from "next/link";
-import PortfolioHome from "./portfolio/PortfolioHome";
+import PortfolioHome from "./components/PortfolioHome";
 
 export default function Home() {
   return (
