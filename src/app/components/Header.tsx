@@ -8,8 +8,8 @@ export default function Header() {
     <header className="w-full flex justify-center">
       <div className="w-full max-w-7xl">
         <div className="flex justify-start gap-4">
-          <Link href="/">home</Link>
-          <Link href="/blog">blog</Link>
+          <Link href="/">HOME</Link>
+          <Link href="/blog">BLOG</Link>
         </div>
         <div className="flex justify-end gap-4">
           <a href="https://www.pixiv.net/users/14838049">
