@@ -16,6 +16,7 @@ export default function Header() {
       <div className="w-full flex justify-end gap-5 text-lg mr-20">
         <Link href="/">HOME</Link>
         <Link href="/about">ABOUT</Link>
+        <Link href="/works">WORKS</Link>
         <Link href="/blog">BLOG</Link>
       </div>
     </header>
