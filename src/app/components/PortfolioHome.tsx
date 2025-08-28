@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function PortfolioHome() {
   return (
-    <main className="w-full max-w-7xl">
-      <div className="relative h-120 mb-12 w-full overflow-hidden">
+    <main className="w-full">
+      <div className="relative h-screen w-full overflow-hidden">
         <Image
           src="/images/my_t_pose.png"
           alt="Picture of the author"
