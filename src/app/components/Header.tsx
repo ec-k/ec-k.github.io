@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header className="w-full sticky top-0 z-50 h-16 text-white relative">
-      <div className="absolute inset-0 bg-black opacity-75 z-0"></div>
+      <div className="absolute inset-0 bg-black z-0"></div>
       <div className="w-full h-full z-10 relative flex items-center px-20">
         <div className="flex flex-grow justify-start gap-6 items-center">
           <Image
@@ -16,10 +16,18 @@ export default function Header() {
           <p className="text-2xl ">EC-K</p>
         </div>
         <div className="flex flex-grow justify-end gap-5 text-lg items-center">
-          <Link href="/">HOME</Link>
-          <Link href="/about">ABOUT</Link>
-          <Link href="/works">WORKS</Link>
-          <Link href="/blog">BLOG</Link>
+          <Link href="/" className="hover:underline">
+            HOME
+          </Link>
+          <Link href="/about" className="hover:underline">
+            ABOUT
+          </Link>
+          <Link href="/works" className="hover:underline">
+            WORKS
+          </Link>
+          <Link href="/blog" className="hover:underline">
+            BLOG
+          </Link>
         </div>
       </div>
     </header>
