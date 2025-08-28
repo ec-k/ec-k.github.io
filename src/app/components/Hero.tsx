@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function PortfolioHome() {
+export default function Hero() {
   return (
     <main className="w-full">
       <div className="relative h-screen w-full overflow-hidden">
