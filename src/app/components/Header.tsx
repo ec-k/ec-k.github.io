@@ -17,13 +17,13 @@ export default function Header() {
         </a>
         <div className="flex flex-grow"></div>
         <nav className="flex flex-grow justify-end gap-5 text-lg items-center">
-          <Link href="#hero-section" className="hover:underline">
+          <Link href="/#hero-section" className="hover:underline">
             HOME
           </Link>
-          <Link href="#about-section" className="hover:underline">
+          <Link href="/#about-section" className="hover:underline">
             ABOUT
           </Link>
-          <Link href="#works-section" className="hover:underline">
+          <Link href="/#works-section" className="hover:underline">
             WORKS
           </Link>
           <Link href="/blog" className="hover:underline">
