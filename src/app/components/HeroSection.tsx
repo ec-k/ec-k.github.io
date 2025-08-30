@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-export default function Hero() {
+export default function HeroSection() {
   return (
-    <div className="relative h-screen overflow-hidden" id="hero-section">
+    <section className="relative h-screen overflow-hidden" id="hero-section">
       <Image
         src="/images/my_t_pose.png"
         alt="Picture of the author"
@@ -16,6 +16,6 @@ export default function Hero() {
         <p className="text-6xl mb-5">怠惰．</p>
         <p className="text-xl ml-1">石射 彗 / Ishi Kei</p>
       </div>
-    </div>
+    </section>
   );
 }

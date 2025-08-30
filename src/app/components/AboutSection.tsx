@@ -1,9 +1,9 @@
 import ProfileIcon from "./ProfileIcon";
 import SocialLinks from "./SocialLinks";
 
-export default function About() {
+export default function AboutSection() {
   return (
-    <div className="h-180 w-full mt-20 gap-4" id="about-section">
+    <section className="h-180 w-full mt-20 gap-4" id="about-section">
       <div className="px-20 pt-30 grid grid-template-rows gap-10">
         <h1 className="flex justify-center text-4xl">ABOUT</h1>
         <div className="h-rf1 w-full flex justify-center items-center gap-10">
@@ -23,6 +23,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
