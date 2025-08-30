@@ -6,7 +6,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 h-16 text-white">
       <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
       <div className="w-full h-full z-10 relative flex items-end px-20">
-        <a href="/" className="flex justify-start gap-6 items-center">
+        <Link href="/" className="flex justify-start gap-6 items-center">
           <Image
             src="/icon-192x192.png"
             alt="Icon of author"
@@ -14,7 +14,7 @@ export default function Header() {
             height={46}
           />
           <p className="text-2xl ">EC-K</p>
-        </a>
+        </Link>
         <div className="flex flex-grow"></div>
         <nav className="flex flex-grow justify-end gap-5 text-lg items-center">
           <Link href="/#hero-section" className="hover:underline">
