@@ -22,7 +22,7 @@ export default function Header() {
           <Link href="#about-section" className="hover:underline">
             ABOUT
           </Link>
-          <Link href="/works" className="hover:underline">
+          <Link href="#works-section" className="hover:underline">
             WORKS
           </Link>
           <Link href="/blog" className="hover:underline">

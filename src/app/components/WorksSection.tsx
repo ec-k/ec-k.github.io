@@ -1,3 +1,3 @@
 export default function WorksSection() {
-  return <section></section>;
+  return <section id="works-section"></section>;
 }
