@@ -12,7 +12,7 @@ const lato = Lato({
 });
 
 const zenKaku = Zen_Kaku_Gothic_New({
-  weight: "300",
+  weight: "400",
   display: "swap",
   subsets: ["latin"],
   variable: "--font-zen-kaku-gothic-new",
