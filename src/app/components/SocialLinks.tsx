@@ -4,7 +4,7 @@ import { faPixiv, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function SocialLinks() {
   return (
-    <div className="flex gap-3">
+    <nav className="flex gap-3">
       <a href="https://www.pixiv.net/users/14838049">
         <FontAwesomeIcon icon={faPixiv} className="h-[32px]" color="white" />
       </a>
@@ -19,6 +19,6 @@ export default function SocialLinks() {
           height={32}
         />
       </a>
-    </div>
+    </nav>
   );
 }

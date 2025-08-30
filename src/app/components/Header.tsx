@@ -15,7 +15,7 @@ export default function Header() {
           />
           <p className="text-2xl ">EC-K</p>
         </div>
-        <div className="flex flex-grow justify-end gap-5 text-lg items-center">
+        <nav className="flex flex-grow justify-end gap-5 text-lg items-center">
           <Link href="#hero-section" className="hover:underline">
             HOME
           </Link>
@@ -28,7 +28,7 @@ export default function Header() {
           <Link href="/blog" className="hover:underline">
             BLOG
           </Link>
-        </div>
+        </nav>
       </div>
     </header>
   );
