@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 h-16 text-white">
       <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
-      <div className="w-full h-full z-10 relative flex items-center px-20">
+      <div className="w-full h-full z-10 relative flex items-end px-20">
         <div className="flex flex-grow justify-start gap-6 items-center">
           <Image
             src="/icon-192x192.png"

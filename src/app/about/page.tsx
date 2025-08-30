@@ -4,20 +4,23 @@ import SocialLinks from "../components/SocialLinks";
 export default function About() {
   return (
     <div className="h-screen w-full mt-20 gap-4">
-      <h1 className="flex justify-center text-4xl">ABOUT</h1>
-      <div className="w-full flex justify-center items-center">
-        <div className="flex items-center">
-          <ProfileIcon src={"/images/author_image.jpg"} size={128} />
-        </div>
-        <div className="gap-4">
-          <div>
-            <p className="text-sm">Ishi Kei</p>
-            <p className="text-lg">石射 彗</p>
+      <div className="px-20 pt-30 grid grid-template-rows gap-10">
+        <h1 className="flex justify-center text-4xl">ABOUT</h1>
+        <div className="h-rf1 w-full flex justify-center items-center gap-10">
+          <div className="flex items-center">
+            <ProfileIcon src={"/images/author_image.jpg"} size={128} />
           </div>
-          <div>
-            <p>怠惰．</p>
+          <div className="grid gap-4">
+            <div>
+              <p className="text-2xl">石射 彗 / ISHI Kei</p>
+            </div>
+            <div>
+              <p className="">怠惰．</p>
+            </div>
+            <div className="flex justify-center">
+              <SocialLinks />
+            </div>
           </div>
-          <SocialLinks />
         </div>
       </div>
     </div>
