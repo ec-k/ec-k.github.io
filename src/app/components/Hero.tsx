@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div className="relative h-screen overflow-hidden" id="hero-section">
       <Image
         src="/images/my_t_pose.png"
         alt="Picture of the author"

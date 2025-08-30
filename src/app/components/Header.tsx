@@ -16,10 +16,10 @@ export default function Header() {
           <p className="text-2xl ">EC-K</p>
         </div>
         <div className="flex flex-grow justify-end gap-5 text-lg items-center">
-          <Link href="/" className="hover:underline">
+          <Link href="#hero-section" className="hover:underline">
             HOME
           </Link>
-          <Link href="/about" className="hover:underline">
+          <Link href="#about-section" className="hover:underline">
             ABOUT
           </Link>
           <Link href="/works" className="hover:underline">

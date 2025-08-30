@@ -1,9 +1,9 @@
-import ProfileIcon from "../components/ProfileIcon";
-import SocialLinks from "../components/SocialLinks";
+import ProfileIcon from "./ProfileIcon";
+import SocialLinks from "./SocialLinks";
 
 export default function About() {
   return (
-    <div className="h-screen w-full mt-20 gap-4">
+    <div className="h-screen w-full mt-20 gap-4" id="about-section">
       <div className="px-20 pt-30 grid grid-template-rows gap-10">
         <h1 className="flex justify-center text-4xl">ABOUT</h1>
         <div className="h-rf1 w-full flex justify-center items-center gap-10">
