@@ -25,16 +25,6 @@ const kiwiMaru = Kiwi_Maru({
   variable: "--font-kiwi-maru",
 });
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
   title: "EC-K",
   description: "",
