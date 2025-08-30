@@ -1,5 +1,5 @@
-import ProfileIcon from "./ProfileIcon";
-import SocialLinks from "./SocialLinks";
+import ProfileIcon from "../ProfileIcon";
+import SocialLinks from "../SocialLinks";
 
 export default function AboutSection() {
   return (
