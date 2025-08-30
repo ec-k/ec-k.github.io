@@ -2,9 +2,13 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPixiv, faGithub } from "@fortawesome/free-brands-svg-icons";
 
-export default function SocialLinks() {
+type Props = {
+  gap: string;
+};
+
+export default function SocialLinks({ gap }: Props) {
   return (
-    <nav className="flex gap-3">
+    <nav className={`flex gap-3 ${gap} || ""`}>
       <a href="https://www.pixiv.net/users/14838049">
         <FontAwesomeIcon icon={faPixiv} className="h-[32px]" color="white" />
       </a>

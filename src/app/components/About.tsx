@@ -18,7 +18,7 @@ export default function About() {
               <p className="">怠惰．</p>
             </div>
             <div className="flex justify-center">
-              <SocialLinks />
+              <SocialLinks gap={"gap-5"} />
             </div>
           </div>
         </div>
