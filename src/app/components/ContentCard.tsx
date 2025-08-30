@@ -8,18 +8,17 @@ type Props = {
 
 export default function ContentCard({ size, categoryName, imageSrc }: Props) {
   const cardHeight = size + 10;
-  const pixelSizeApprox = size * 3.5;
   return (
-    <div className={`h-${cardHeight} w-${size} flex flex-col justify-center`}>
+    <div className={`flex h-${cardHeight} w-${size} flex-col justify-center`}>
       <h2 className="">{categoryName}</h2>
       <div
-        className={`h-${size} w-${size} overflow-hidden flex justify-center items-center`}
+        className={`relative h-${size} w-${size} overflow-hidden flex justify-center items-center`}
       >
         <Image
           src={imageSrc}
           alt={`Image of ${categoryName}`}
-          height={pixelSizeApprox}
-          width={pixelSizeApprox}
+          fill
+          className="object-cover"
         />
       </div>
     </div>
