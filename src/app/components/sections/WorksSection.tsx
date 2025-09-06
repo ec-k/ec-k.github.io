@@ -12,11 +12,13 @@ export default function WorksSection() {
             categoryName="Illustration"
             imageSrc="/images/illustration_1.png"
           />
-          <ContentCard
-            size={cardSize}
-            categoryName="Software"
-            imageSrc="/images/software_1.png"
-          />
+          <a href="https://ec-k.github.io/violet-marionette-web/">
+            <ContentCard
+              size={cardSize}
+              categoryName="Software"
+              imageSrc="/images/violet-marionette-web.png"
+            />
+          </a>
         </div>
       </div>
     </section>
