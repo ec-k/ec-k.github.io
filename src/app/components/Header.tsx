@@ -26,9 +26,6 @@ export default function Header() {
           <Link href="/#works-section" className="hover:underline">
             WORKS
           </Link>
-          <Link href="/blog" className="hover:underline">
-            BLOG
-          </Link>
         </nav>
       </div>
     </header>
