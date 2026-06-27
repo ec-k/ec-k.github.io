@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <section className="relative h-screen overflow-hidden" id="hero-section">
       <Image
-        src="/images/my_t_pose.png"
+        src="/images/hero_tmp.png"
         alt="Picture of the author"
         fill
         style={{ objectFit: "cover", objectPosition: "center" }}
@@ -12,10 +12,10 @@ export default function HeroSection() {
         quality={80}
         className="absolute inset-0"
       />
-      <div className="absolute bottom-0 left-0 z-10 p-10 text-white">
+      {/* <div className="absolute bottom-0 left-0 z-10 p-10 text-white">
         <p className="text-6xl mb-5">怠惰．</p>
         <p className="text-xl ml-1">石射 彗 / Ishi Kei</p>
-      </div>
+      </div> */}
     </section>
   );
 }

@@ -41,7 +41,7 @@ export default function RootLayout({
         className={`${lato.variable}  ${zenKaku.variable}  ${kiwiMaru.variable} antialiased`}
       >
         <div className="font-sans grid grid-rows-[1fr_min-content] min-h-screen">
-          <Header />
+          {/* <Header /> */}
           <main>{children}</main>
         </div>
       </body>
