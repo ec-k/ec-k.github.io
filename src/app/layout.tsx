@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Lato, Zen_Kaku_Gothic_New, Kiwi_Maru } from "next/font/google";
 import "./globals.css";
@@ -30,6 +30,11 @@ export const metadata: Metadata = {
   description: "",
 };
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -40,7 +45,7 @@ export default function RootLayout({
       <body
         className={`${lato.variable}  ${zenKaku.variable}  ${kiwiMaru.variable} antialiased`}
       >
-        <div className="font-sans grid grid-rows-[1fr_min-content] min-h-screen">
+        <div className="font-sans grid grid-rows-[1fr_min-content] w-full min-h-screen">
           {/* <Header /> */}
           <main>{children}</main>
         </div>
